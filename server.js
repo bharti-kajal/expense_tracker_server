@@ -11,7 +11,7 @@ import multer from 'multer';
 const server = express();
 
 const corsOptions = {
-    origin: "http://localhost:3000",
+    origin: "https://expense-tracker-server-r0rx.onrender.com",
     methods: "GET,POST",
     preflightContinue: false,
     optionsSuccessStatus: 204,
